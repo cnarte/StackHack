@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Animation </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="main.css"type="text/css">
+
+         <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.0/lib/anime.min.js"></script>
+          <script src="https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/controls/OrbitControls.js"></script>
+          <script src="https://threejs.org/build/three.min.js"></script>
+    </head>
+    <body>
+    <div class="container">
+        <div id="options">
+            <p><span id="randFrom"></span></p>
+            <p> <span id="randEasing"></span></p>
+     </div>
+     <div class="row ">
+         <div class="col-4 form flip-box">
+             <div class="flip-box-inner" style="background-color: rgb(66, 65, 65); border-radius: 20px; padding: 20px;">
+         
+            <h1>Sign-up</h1>
+            <form>
+                <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                  <label for="mobile">Mobile Number</label>
+                  <input type="password" class="form-control" id="Mobile" placeholder="Mobile no.">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-Mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter E-Mail">
+                  </div>
+                <div class="form-check">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+
+     </div>
+     </div>
+    </div>
+    </div>
+          <script src="main.js"></script>
+    </body>
+</html>
